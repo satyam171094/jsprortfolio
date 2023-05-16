@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* SECTION-2 */
+
+.section2{
+    background-color: #0b3251;
+    min-height: 165vh;
+    width: 100%;
+ 
+}
+
+.section2 h1{
+    text-align: center;
+    line-height: 166px;
+    font-size: 4rem;
+    color: white;
+    margin-left: 50px;
+
+}
+
+.flex_img{
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.img1 img{
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+

@@ -1,37 +1,39 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+.section1{
     min-height: 100vh;
     width: 100%;
-    background-color: #1d132e   ;
+    background-color: rgb(18, 7, 29);
 }
 
-.section1 h1{
-    font-size: 4rem;
+h1{
     color: white;
-    margin-top: 50px;
     text-align: center;
-
+    font-size: 4rem;
+    margin-bottom: 70px;
+    line-height: 200px;
 }
-
 .flex_img{
-    min-height: 90vh;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 50px;
-
+min-height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
 }
 
 .img1{
-    height: 360px;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 30px;
+    margin-left: 10%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
 }
 
 .img1 img{
     margin-left: 30px;
+    border-radius: 10px;
+    
 }

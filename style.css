@@ -8,6 +8,7 @@
     min-height: 100vh;
     width: 100%;
     background-color: rgb(18, 7, 29);
+
 }
 
 h1{
@@ -16,6 +17,9 @@ h1{
     font-size: 4rem;
     margin-bottom: 40px;
     line-height: 200px;
+}
+h1:hover{
+    color: crimson;
 }
 .flex_img{
 min-height: 100vh;
@@ -34,11 +38,90 @@ flex-direction: column;
     justify-content: center;
 }
 
-.img1 img{
+.new1 a img{
     margin-left: 30px;
-    border-radius: 5px;
+    border-radius: 46px;
     height: 350px;
     width: 300px;
     padding: 20px;
-    
+    transition: transform 0.5s ease;
 }
+
+.new1 a img:hover {
+    transform: translateZ(200px);
+    margin: 10px solid white;
+}
+
+p{
+    color: white;
+    margin-left: 60px;
+    font-size: 2rem;
+}
+p:hover{
+    color: crimson;
+}
+
+@media screen and (max-width:912px){
+    .new1 a img{
+        height: 300px;
+        width: 250px;
+        margin-left: 10px;      
+    }
+}
+@media screen and (max-width:540px){
+    .new1 a img{
+        height: 217px;
+        width: 157px;
+        margin-left: 10px;      
+    }
+    p{
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width:414px){
+ h1{
+    font-size: 3rem;
+    margin-bottom: 0px;
+    line-height: 150px;
+ }
+
+ .img1{
+    margin-bottom: -175px;
+ }
+
+
+ .new1 a img{
+    height: 190px;
+    width: 140px;
+    margin-left: 0px;      
+}   
+p{
+    font-size: 1rem;
+}   
+ }
+
+ @media screen and (max-width:375px){
+    h1{
+       font-size: 2rem;
+       margin-bottom: 0px;
+       line-height: 30px;
+    }
+   
+    .img1{
+
+       height: 247px;
+       margin-bottom: 0px;
+    }
+   
+   
+    .new1 a img{
+       height: 164px;
+       width: 130px;
+       margin-left: -5px;      
+   }   
+   p{
+       font-size: 1rem;
+   }   
+ 
+    }

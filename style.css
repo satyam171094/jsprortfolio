@@ -68,6 +68,18 @@ p:hover{
         margin-left: 10px;      
     }
 }
+
+@media screen and (max-width:746px){
+    .new1 a img{
+        height: 217px;
+        width: 157px;
+        margin-left: 10px;      
+    }
+    p{
+        margin-left: 25px;
+    }
+}
+
 @media screen and (max-width:540px){
     .new1 a img{
         height: 217px;
@@ -79,6 +91,27 @@ p:hover{
     }
 }
 
+@media screen and (max-width:470px){
+    h1{
+       font-size: 3rem;
+       margin-bottom: 0px;
+       line-height: 150px;
+    }
+   
+    .img1{
+       margin-bottom: -175px;
+    }
+   
+   
+    .new1 a img{
+       height: 190px;
+       width: 140px;
+       margin-left: 0px;      
+   }   
+   p{
+       font-size: 1rem;
+   }   
+    }
 @media screen and (max-width:414px){
  h1{
     font-size: 3rem;
